@@ -1,4 +1,11 @@
 # Exam-Answers
+5.  How to initialize array with values in Kotlin?
+    We can create an array with the help of the library function arrayOf() and initialize it with any values we want.
+
+    fun main() {
+        val Cars = arrayOf("Mercedes", "Ferrari", "BMW" )
+        println (Cars.contentToString())
+    }
 6.  What is difference between var and val?
     var is used to declare a mutable variable. A mutable variable is a variable that can be changed or that can be reassigned in the course of the program.
 
