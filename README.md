@@ -1,0 +1,3 @@
+# Exam-Answers
+12. What is AndroidManifest?
+    Every Android App must have Manifest file. It is information about an Android application is contained in the Android App Manifest. At the base of the source set, there is a single AndroidManifest.xml file for each application. Android App Manifests are used by the Android operating system and digital distribution platforms (Google Play) to locate details(version) about an application, including its name, entry point, support for hardware features, Android version, and permissions.
