@@ -1,4 +1,36 @@
 # Exam-Answers
+3.  What is Primary Constructor? Show all cases
+
+The primary constructor is a part of the class header, and it goes after the class name and optional type parameters.
+
+class Person constructor(firstName: String) { /*...*/ }
+
+The primary constructor cannot contain any code. Initialization code can be placed in initializer blocks prefixed with the init keyword.
+
+class Student {
+var name: String
+val age : Int
+
+    init {
+        name = "Karam"
+        age = 21
+    }
+
+    init {
+        name = "Karam Afandi"
+        //age = 20
+    }
+}
+
+fun main(args: Array<String>) {
+
+    val student = Student()
+    println("${student.name} age is ${student.age}")
+    student.name = "Your"
+    //student.age = 26 //won't compile. age is val
+    println("${student.name} age is ${student.age}")
+
+}
 4.  What is data class?
 
     The data class in Kotlin is used to hold the data. This data class contains some utility functions that are often derivable from the data.
