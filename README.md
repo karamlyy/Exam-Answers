@@ -1,4 +1,14 @@
 # Exam-Answers
+7.  How to concatenate String?
+    To concatenate strings in Kotlin, you can use concatenation operator +. You may usually encounter concatenation operator as addition operator.
+    example: var name = "Karam"
+    
+    var surname = "Afandi"
+    
+    var fullName = name + " " + surname // result: Karam Afandi
+    println("Hello, $name")
+    print(stringResult)
+
 11. What is the life cycle of Android activity?
     The Android activity lifecycle starts with the onCreate() method. This method is called when the user clicks on your app’s icon, which causes this method to create the activity. This method is required for every activity, as it sets the layout.
 
