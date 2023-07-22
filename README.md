@@ -11,7 +11,6 @@
     
     var fullName = name + " " + surname // result: Karam Afandi
     println("Hello, $name")
-    print(stringResult)
 8.  What is variable declaration with ? mark
     The Kotlin programming language uses the question mark (?) symbol for many of its null safety features.
     To allow null in your variable, you need to add a question mark ? after the variable type: var myString: String? = null. The variable then becomes a nullable String type, which can hold the null value.
