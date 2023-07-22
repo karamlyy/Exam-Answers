@@ -1,4 +1,8 @@
 # Exam-Answers
+6.  What is difference between var and val?
+    var is used to declare a mutable variable. A mutable variable is a variable that can be changed or that can be reassigned in the course of the program.
+
+    val is used to declare immutable variables. Once a value is assigned to a variable with the val keyword, it cannot be altered or reassigned throughout the program. Val is similar to the final keyword in Java.
 7.  How to concatenate String?
     To concatenate strings in Kotlin, you can use concatenation operator +. You may usually encounter concatenation operator as addition operator.
     example: var name = "Karam"
