@@ -1,4 +1,9 @@
 # Exam-Answers
+4.  What is data class?
+
+    The data class in Kotlin is used to hold the data. This data class contains some utility functions that are often derivable from the data.
+
+    With the help of the data class, you don’t need to write the boiler plate code. The compiler automatically generates all the getter and setter for all the data class properties. Its syntax includes the data keyword with class.
 5.  How to initialize array with values in Kotlin?
     We can create an array with the help of the library function arrayOf() and initialize it with any values we want.
 
