@@ -8,7 +8,11 @@
     var fullName = name + " " + surname // result: Karam Afandi
     println("Hello, $name")
     print(stringResult)
+8.  What is variable declaration with ? mark
+    The Kotlin programming language uses the question mark (?) symbol for many of its null safety features.
+    To allow null in your variable, you need to add a question mark ? after the variable type: var myString: String? = null. The variable then becomes a nullable String type, which can hold the null value.
 
+    Null safety is a feature of modern programming languages created to reduce (or eliminate) the danger of referencing null values in your source code.
 11. What is the life cycle of Android activity?
     The Android activity lifecycle starts with the onCreate() method. This method is called when the user clicks on your app’s icon, which causes this method to create the activity. This method is required for every activity, as it sets the layout.
 
